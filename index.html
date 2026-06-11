@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .title{
+            color: #3a65af;
+            text-align: center;
+        }
+        .button{
+            background-color: rgb(100, 100, 235);
+            color: rgb(244, 231, 231);
+            padding: 10px;
+        }
+        .input {
+            padding: 10px;
+            width: 250px;
+        }
+    </style>
+</head>
+<body>
+    <h2 class="title"> GITHUB PROFILE VIEWER APP </h2>
+    <div>
+        <label for="profviewer"> Profile Username: </label>
+        <input type="text" id="profviewer" name="profviewer" class="input">
+        <br>
+        <br>
+        <button type="button" class="button" id="button">Submit </button>
+    </div>
+    <div id="result"></div>   <!-- profile card goes here -->
+    <div id="repos"></div>    <!-- repo list goes here -->
+
+    <script src="script.js"></script>
+</body>
+</html>
